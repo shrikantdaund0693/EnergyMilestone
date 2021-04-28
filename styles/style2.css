@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 105px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+}
+
+.main-div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(17, 132, 240, 0.8);
+    text-align: center;
+    color: white;
+}
+.info img{
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.info p{
+    padding: 10px;
+    margin: 10px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-div{
+    width: 90%;
+    padding: 10px;
+    height: 90%;
+    text-align: center;
+    margin-top: 10px;
+}
+input,textarea{
+    width: 90%;
+    resize: none;
+    width: 90%;
+    padding: 10px;
+    background-color: rgba(211, 211, 211,0.2);
+    margin-bottom: 10px;
+    border: none;
+    transition: all 200ms;
+}
+.main-div h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+input[type='submit']{
+    background-color: rgba(35, 226, 76, 0.8);
+    border: none;
+}
+input[type='submit']:hover{
+    background-color: green;
+    color: white;
+    box-shadow: 1px 1px 5px blue;
+}
+input:focus,textarea:focus,input:hover,textarea:hover{
+    box-shadow: 1px 1px 8px rgb(92, 92, 207);
+}
+.icons a{
+    text-decoration: none;
+}
+.icons a i{
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+.call{
+    color: green;
+}
+.env{
+    color: red;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    transition: all 500ms;
+}
+h4:hover{
+    background-color: green;
+    border-radius: 50px;
+}
+.home{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(240, 29, 29);
+    padding: 5px 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.icons{
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home:hover{
+    text-decoration: none;
+    background-color: rgb(229, 240, 214);
+    color: black;
+}
